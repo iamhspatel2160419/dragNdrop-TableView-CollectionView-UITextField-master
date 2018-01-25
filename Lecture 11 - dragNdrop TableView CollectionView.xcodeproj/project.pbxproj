@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA232C01200539BE008B06C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA232C00200539BE008B06C7 /* AppDelegate.swift */; };
+		EA232C03200539BE008B06C7 /* EmojiArtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA232C02200539BE008B06C7 /* EmojiArtViewController.swift */; };
+		EA232C06200539BE008B06C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA232C04200539BE008B06C7 /* Main.storyboard */; };
+		EA232C08200539BE008B06C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA232C07200539BE008B06C7 /* Assets.xcassets */; };
+		EA232C0B200539BE008B06C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA232C09200539BE008B06C7 /* LaunchScreen.storyboard */; };
+		EA232C1420053CF9008B06C7 /* EmojiArtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA232C1320053CF9008B06C7 /* EmojiArtView.swift */; };
+		EA232C1620055DDA008B06C7 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA232C1520055DDA008B06C7 /* Utilities.swift */; };
+		EA7F6D3F2007AE900054C5DB /* EmojiCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7F6D3E2007AE900054C5DB /* EmojiCollectionViewCell.swift */; };
+		EA7F6D412007DCE40054C5DB /* EmojiArtView+Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7F6D402007DCE30054C5DB /* EmojiArtView+Gestures.swift */; };
+		EA7F6D43200825C40054C5DB /* TextFieldCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7F6D42200825C40054C5DB /* TextFieldCollectionViewCell.swift */; };
+		EAC8CBD72006819100475E69 /* EmojiArtDocumentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC8CBD62006819100475E69 /* EmojiArtDocumentTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA232BFD200539BE008B06C7 /* Lecture 11 - dragNdrop TableView CollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lecture 11 - dragNdrop TableView CollectionView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA232C00200539BE008B06C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA232C02200539BE008B06C7 /* EmojiArtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArtViewController.swift; sourceTree = "<group>"; };
+		EA232C05200539BE008B06C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA232C07200539BE008B06C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA232C0A200539BE008B06C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA232C0C200539BE008B06C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA232C1320053CF9008B06C7 /* EmojiArtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArtView.swift; sourceTree = "<group>"; };
+		EA232C1520055DDA008B06C7 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		EA7F6D3E2007AE900054C5DB /* EmojiCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiCollectionViewCell.swift; sourceTree = "<group>"; };
+		EA7F6D402007DCE30054C5DB /* EmojiArtView+Gestures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EmojiArtView+Gestures.swift"; sourceTree = "<group>"; };
+		EA7F6D42200825C40054C5DB /* TextFieldCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCollectionViewCell.swift; sourceTree = "<group>"; };
+		EAC8CBD62006819100475E69 /* EmojiArtDocumentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArtDocumentTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA232BFA200539BE008B06C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA232BF4200539BE008B06C7 = {
+			isa = PBXGroup;
+			children = (
+				EA232BFF200539BE008B06C7 /* Lecture 11 - dragNdrop TableView CollectionView */,
+				EA232BFE200539BE008B06C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA232BFE200539BE008B06C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA232BFD200539BE008B06C7 /* Lecture 11 - dragNdrop TableView CollectionView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA232BFF200539BE008B06C7 /* Lecture 11 - dragNdrop TableView CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				EA232C04200539BE008B06C7 /* Main.storyboard */,
+				EAC8CBD62006819100475E69 /* EmojiArtDocumentTableViewController.swift */,
+				EA232C02200539BE008B06C7 /* EmojiArtViewController.swift */,
+				EA232C1320053CF9008B06C7 /* EmojiArtView.swift */,
+				EA7F6D402007DCE30054C5DB /* EmojiArtView+Gestures.swift */,
+				EA7F6D3E2007AE900054C5DB /* EmojiCollectionViewCell.swift */,
+				EA7F6D42200825C40054C5DB /* TextFieldCollectionViewCell.swift */,
+				EA232C1520055DDA008B06C7 /* Utilities.swift */,
+				EA232C12200539EF008B06C7 /* Supporting Files */,
+				EA232C0C200539BE008B06C7 /* Info.plist */,
+			);
+			path = "Lecture 11 - dragNdrop TableView CollectionView";
+			sourceTree = "<group>";
+		};
+		EA232C12200539EF008B06C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA232C00200539BE008B06C7 /* AppDelegate.swift */,
+				EA232C07200539BE008B06C7 /* Assets.xcassets */,
+				EA232C09200539BE008B06C7 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA232BFC200539BE008B06C7 /* Lecture 11 - dragNdrop TableView CollectionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA232C0F200539BE008B06C7 /* Build configuration list for PBXNativeTarget "Lecture 11 - dragNdrop TableView CollectionView" */;
+			buildPhases = (
+				EA232BF9200539BE008B06C7 /* Sources */,
+				EA232BFA200539BE008B06C7 /* Frameworks */,
+				EA232BFB200539BE008B06C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lecture 11 - dragNdrop TableView CollectionView";
+			productName = "Lecture 11 - dragNdrop TableView CollectionView";
+			productReference = EA232BFD200539BE008B06C7 /* Lecture 11 - dragNdrop TableView CollectionView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA232BF5200539BE008B06C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Michel Deiman";
+				TargetAttributes = {
+					EA232BFC200539BE008B06C7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EA232BF8200539BE008B06C7 /* Build configuration list for PBXProject "Lecture 11 - dragNdrop TableView CollectionView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA232BF4200539BE008B06C7;
+			productRefGroup = EA232BFE200539BE008B06C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA232BFC200539BE008B06C7 /* Lecture 11 - dragNdrop TableView CollectionView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA232BFB200539BE008B06C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA232C0B200539BE008B06C7 /* LaunchScreen.storyboard in Resources */,
+				EA232C08200539BE008B06C7 /* Assets.xcassets in Resources */,
+				EA232C06200539BE008B06C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA232BF9200539BE008B06C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA232C03200539BE008B06C7 /* EmojiArtViewController.swift in Sources */,
+				EA7F6D412007DCE40054C5DB /* EmojiArtView+Gestures.swift in Sources */,
+				EA7F6D3F2007AE900054C5DB /* EmojiCollectionViewCell.swift in Sources */,
+				EA232C01200539BE008B06C7 /* AppDelegate.swift in Sources */,
+				EA7F6D43200825C40054C5DB /* TextFieldCollectionViewCell.swift in Sources */,
+				EA232C1620055DDA008B06C7 /* Utilities.swift in Sources */,
+				EAC8CBD72006819100475E69 /* EmojiArtDocumentTableViewController.swift in Sources */,
+				EA232C1420053CF9008B06C7 /* EmojiArtView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA232C04200539BE008B06C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA232C05200539BE008B06C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA232C09200539BE008B06C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA232C0A200539BE008B06C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA232C0D200539BE008B06C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA232C0E200539BE008B06C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA232C10200539BE008B06C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 663TR68DHM;
+				INFOPLIST_FILE = "Lecture 11 - dragNdrop TableView CollectionView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Deiman.Lecture-11---dragNdrop-TableView-CollectionView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		EA232C11200539BE008B06C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 663TR68DHM;
+				INFOPLIST_FILE = "Lecture 11 - dragNdrop TableView CollectionView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Deiman.Lecture-11---dragNdrop-TableView-CollectionView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA232BF8200539BE008B06C7 /* Build configuration list for PBXProject "Lecture 11 - dragNdrop TableView CollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA232C0D200539BE008B06C7 /* Debug */,
+				EA232C0E200539BE008B06C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA232C0F200539BE008B06C7 /* Build configuration list for PBXNativeTarget "Lecture 11 - dragNdrop TableView CollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA232C10200539BE008B06C7 /* Debug */,
+				EA232C11200539BE008B06C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA232BF5200539BE008B06C7 /* Project object */;
+}
